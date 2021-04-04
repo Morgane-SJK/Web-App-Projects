@@ -1,0 +1,43 @@
+
+body {
+  font-weight: normal; 
+  background-color: #EEEEEE; /* grey */
+  text-align: center;
+}
+
+h1 {
+  color: #ff845e; /* red-orange */
+}
+
+li {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+/* Navigation Bar */
+nav ul{
+	margin:0;
+	padding:0;
+	background-color: #ddd5d5;
+}
+
+nav a{
+	display:block; /*or inline*/
+	margin-bottom: 10px;
+	padding: 10px;
+	
+	text-align: center;
+	text-decoration: none; /* to remove underlying of the links */
+	
+	color: black;
+}
+
+/* Change the link color on hover and add the underlying*/
+nav a:hover{
+	color: #ff845e;
+	text-decoration: underline;
+}
+
+.hidden{
+   visibility:hidden;
+}

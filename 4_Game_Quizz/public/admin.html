@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset='UTF-8' name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Game Quizz</title>
+	<link rel='stylesheet' href='index.css?refresh=0'/>
+  </head>
+  
+  <body onload="displayQuestions()">
+  
+	<div>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Play</a></li>
+				<li><a href="admin.html">Admin</a></li>
+			</ul>
+		</nav>
+	</header>
+	</div>
+  
+  
+	<h1>You're on the administrator side !</h1>
+	
+	<div id="main">
+		
+		<div id="createQuestions">
+			<button id="create_question" onclick="createQuestion()">Create a new question</button>
+		</div>
+		
+		<div id="questions">
+		</div>
+		
+	
+	</div>
+	
+
+	<script type="text/javascript" src="index.js"></script>
+  </body>
+  
+</html>

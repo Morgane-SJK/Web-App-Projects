@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset='UTF-8' name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Movie Quizz</title>
+	<link rel='stylesheet' href='index.css?refresh=0'/>
+  </head>
+  
+  <body onload="StartQuizz()">
+	<h1>Welcome to the Movie Quizz !</h1>
+	
+	<h3>Let's start the quizz with a question about this movie:</h3>
+	<div id="main">
+	
+	<div id="startquizz"></div>
+	
+	<div id="firstform"">
+		<form action="#" onsubmit="AnswerActorDirector(); return false">
+			<label for="answer">Who directed or played in this movie ? (enter full name)</label><br>
+			<input type="text" id="answer" placeholder="Your answer..">
+			<input type="submit" value="Submit" id="button">
+			<label class="incorrect" id="wrong"> </label>
+		</form>
+	</div>
+	
+	</div>
+	
+	<footer>
+		<p>Morgane Senejko - ESILV A4 DIA1 - Web  Application Architecture Course<br>
+	</footer>
+	
+
+	<script type="text/javascript" src="index.js"></script>
+  </body>
+  
+</html>
